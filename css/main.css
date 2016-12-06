@@ -56,7 +56,7 @@ header nav a {
 
 .buttons {
   padding: 16px;
-  margin: 0
+  margin: 0;
 }
 
 nav li {
@@ -87,15 +87,12 @@ h2, h3 {
 }
 
 .img {
+  padding-right: 10px;
   width: 24%;
 }
 
 .words {
   width: 74%;
-}
-
-.img {
-  padding-right: 10px;
 }
 
 h3 {
