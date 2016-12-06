@@ -63,6 +63,15 @@ nav li {
   text-align: left;
 }
 
+h2 {
+  margin-bottom: 5px;
+}
+
+.wel {
+  color: #099;
+  font-size: 2rem;
+}
+
 h2, h3 {
   font-family: Poppins, sans-serif;
 }
@@ -74,6 +83,7 @@ h2, h3 {
 .tacos {
   padding: 0;
 }
+
 
 .fish,
 .chicken,
@@ -93,19 +103,35 @@ h2, h3 {
 
 .words {
   width: 74%;
+  margin-bottom: 16px;
+}
+
+.intro {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.intro-bum {
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.bum {
+  font-size: 13px;
 }
 
 h3 {
-  margin: 8px 0 0;
+  margin: 0;
 }
 
 .type p {
-  margin: 8px 0 12px;
+  margin: 2px 0 12px;
 }
 
 footer {
   margin: 0;
-  padding: 16px;
+  padding: 8px;
   background-color: #099;
   color: #fff;
   font-family: Poppins, sans-serif;
@@ -123,6 +149,10 @@ footer li {
 .footer a {
   text-decoration: none;
   color: #fff;
+}
+
+footer a:hover {
+  color: lightgrey;
 }
 
 nav a:hover {
