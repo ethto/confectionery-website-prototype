@@ -1,0 +1,137 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: normal 100%/1.3 Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.shack {
+  width: 100%;
+}
+
+header h1 {
+  padding: .5em;
+  margin: 0;
+  font-family: Freckle Face, cursive;
+  text-align: center;
+  color: #fff;
+  background-color: #0099;
+  font-size: 3rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+header li {
+  list-style-type: none;
+}
+
+header nav {
+  font-family: Poppins, sans-serif;
+}
+
+header nav a {
+  display: block;
+  padding: .5em .75em;
+  text-decoration: none;
+  color: #000;
+}
+
+.buttons {
+  padding: 16px;
+  margin: 0
+}
+
+nav li {
+  text-align: left;
+}
+
+h2, h3 {
+  font-family: Poppins, sans-serif;
+}
+
+.des {
+  margin-bottom: 0;
+}
+
+.tacos {
+  padding: 0;
+}
+
+.fish,
+.chicken,
+.veggie {
+  width: 50px;
+}
+
+.img,
+.words {
+  display: inline-block;
+}
+
+.img {
+  width: 24%;
+}
+
+.words {
+  width: 74%;
+}
+
+.img {
+  padding-right: 10px;
+}
+
+h3 {
+  margin: 8px 0 0;
+}
+
+.type p {
+  margin: 8px 0 12px;
+}
+
+footer {
+  margin: 0;
+  padding: 16px;
+  background-color: #099;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+
+.footer {
+  padding: 0;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #c60;
+}
+
+section {
+  padding-left: 16px;
+}
