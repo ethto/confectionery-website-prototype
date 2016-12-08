@@ -232,6 +232,19 @@ nav a:hover {
     width: 5.5em;
   }
 
+  .contact {
+    overflow: hidden;
+  }
+
+  .john {
+    float: left;
+    width: 49%;
+  }
+
+  .about-john {
+    float: right;
+    width: 49%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -241,12 +254,14 @@ nav a:hover {
     line-height: 1.4;
   }
 
-  .john {
-    width: 16em;
+  .contact {
+    width: 32em;
   }
 
   #home {
     position: relative;
+    overflow: hidden;
+    max-height: 30em;
   }
 
   .opening {
