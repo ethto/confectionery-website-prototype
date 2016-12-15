@@ -75,12 +75,14 @@ h2, h3 {
 .intro {
   margin-top: 0;
   font-size: 1.125rem;
+  max-width: 280px;
 }
 
 .about-tacos {
   font-size: 1rem;
   margin-top: 0;
   margin-bottom: 25px;
+  max-width: 250px;
 }
 
 .tacos {
@@ -161,6 +163,14 @@ h3 {
   width: 49%;
 }
 
+.about-john p {
+  max-width: 280px;
+}
+
+#catering p {
+  max-width: 280px;
+}
+
 footer {
   margin: 0;
   padding: 1em;
@@ -228,8 +238,20 @@ nav a:hover {
     width: 50%;
   }
 
+  .intro {
+    max-width: 380px;
+  }
+
   .img {
     width: 5.5em;
+  }
+
+  .about-tacos {
+    max-width: 330px;
+  }
+
+  #catering p {
+    max-width: 380px;
   }
 
   .contact {
@@ -264,6 +286,10 @@ nav a:hover {
     max-height: 30em;
   }
 
+  .about-tacos {
+    max-width: 500px;
+  }
+
   .opening {
     position: absolute;
     left: 1em;
@@ -277,6 +303,10 @@ nav a:hover {
 
   #menu {
     width: 30em;
+  }
+
+  #catering p {
+    max-width: 550px;
   }
 
 }
